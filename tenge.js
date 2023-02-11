@@ -5,22 +5,17 @@
 // @author       Dr.VEX
 // @description  Позволяет отображать цену в стиме в рублях и тенге и WMZ
 // @license      MIT
-// @homepage     https://github.com/Sak32009/GetDLCInfoFromSteamDB/
-// @homepageURL  https://github.com/Sak32009/GetDLCInfoFromSteamDB/
-// @source       github:Sak32009/GetDLCInfoFromSteamDB
-// @supportURL   https://github.com/Sak32009/GetDLCInfoFromSteamDB/issues/
-// @downloadURL  https://raw.githack.com/Sak32009/GetDLCInfoFromSteamDB/master/dist/sak32009-get-data-from-steam-steamdb.user.js
-// @updateURL    https://raw.githack.com/Sak32009/GetDLCInfoFromSteamDB/master/dist/sak32009-get-data-from-steam-steamdb.meta.js
+// @homepage     https://github.com/VEXstar/scripts
+// @homepageURL  https://github.com/VEXstar/scripts
+// @supportURL   https://github.com/VEXstar/scripts/issues
+// @downloadURL  https://raw.githubusercontent.com/VEXstar/scripts/main/tenge.js
+// @updateURL    https://raw.githubusercontent.com/VEXstar/scripts/main/tenge.js
 // @match        *://steamdb.info/app/*
 // @match        *://steamdb.info/depot/*
 // @match        *://store.steampowered.com/app/*
-// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/sprintf/1.1.2/sprintf.min.js
-// @require      https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js
+// @match        *://store.steampowered.com/
+// @match        *://store.steampowered.com/*
 // @grant        unsafeWindow
-// @updatedAT    Wed, 11 Jan 2023 09:59:28 GMT
 // ==/UserScript==
 
 const rubCourse = (tenge) =>{return tenge*0.17};
